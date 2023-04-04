@@ -56,7 +56,7 @@ Extract and analyze website traffic and performance data from the Maven Fuzzy Fa
 
 #### Result:
 
-![](images/query_3.png)
+![](images/result_3.png)
 
 - The majority of the conversion rate contribution came from desktop users with a good growth from 4.43% in March, it dropped in April to 3.51%, but continued to increase in the following months to reach 5% in November. The contribution with mobile devices is quite low and there is a need to investigate this, it could be that the web accessed through mobile is not user friendly.
 
