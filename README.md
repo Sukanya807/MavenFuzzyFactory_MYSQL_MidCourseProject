@@ -134,6 +134,69 @@ From the output we can see:
 - Calculate monthly increase (July - November):
     - 248 / 4 = 64 additional order/month
 
+💡**7 - I’d like to tell the story of our website performance improvements over the course of the first 8 months. Could you pull session to order conversion rates, by month?**
+
+#### Steps:
+
+- Check pageview_url from two pages was created and create summary all pageviews for relevant session
+- Categorise website sessions under segment by 'saw_home_page' or 'saw_lander_page' and aggregate data to assess funnel performance
+- Convert aggregated result to percentage of click rate
+
+#### Query:
+
+![](images/query_7.png)
+
+![](images/result_7.png)
+
+![](images/query_7_1_part_1.png)
+![](images/query_7_1_part_2.png) 
+
+![](images/result_7_1.png)
+
+![](images/query_7_2.png)
+
+![](images/result_7_2.png)
+
+![](images/query_7_3.png)
+
+![](images/result_7_3.png)
+
+- Lander-1 page has a better click trough rate than the home page.
+
+💡**8 - I’d love for you to quantify the impact of our billing test, as well. Please analyze the lift generated from the test (Sep 10 – Nov 10), in terms of revenue per billing page session, and then pull the number of billing page sessions for the past month to understand monthly impact.**
+
+#### Steps:
+
+- Check billing-2 test was created
+- Calculate or aggregate the sessions and price_usd for /billing and /billing-2
+- Calculate billing page sessions for the past month (Sep 27 – Nov 27) and estimate revenue
+
+#### Query:
+
+![](images/query_8.png)
+
+![](images/result_8.png)
+
+- billing-2 has a larger revenue per billing page contribution with a lift of 8.51 dollars/pageview
+
+![](images/query_8_1.png)
+
+![](images/result_8_1.png)
+
+- We can calculate from the past month:
+    - Total session a month = 1193
+    - Value billing test = 1193 X 8.51 (lift) = 10152.43
+- So there are 1193 sessions and with the increase of 8.51 dolar average revenue per session with a positive impact 10152.43 dolar increase in revenue
+
+
+
+
+
+
+
+
+
+
 
 
 
