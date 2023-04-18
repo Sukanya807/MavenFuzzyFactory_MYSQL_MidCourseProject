@@ -13,8 +13,8 @@ Extract and analyze website traffic and performance data from the Maven Fuzzy Fa
 
 #### Steps:
 
-- Extract month from date, calculate relavant sessions and orders based source is gsearch
-- Aggregate to find conversion rate for every month sessions
+- Extract month from date, calculate relavant sessions and orders where source is gsearch
+- Aggregate to find conversion rate for every month 
 
 #### Query:
 
@@ -24,7 +24,7 @@ Extract and analyze website traffic and performance data from the Maven Fuzzy Fa
 
 ![](images/result_1.png)
 
-- Session to orders growth remained stable and saw a steadily increase from March, 3.23% to November, 4.20%.
+- Session to order growth remained stable and saw a steady increase from March (3.23%) to November (4.20%).
 
 💡**2 - Next, it would be great to see a similar monthly trend for Gsearch, but this time splitting out nonbrand and brand campaigns separately. I am wondering if brand is picking up at all. If so, this is a good story to tell.**
 
