@@ -109,7 +109,7 @@ From the output we can see:
 #### Steps:
 
 - Find when lander-1 test was first created and the first website_pageview_id, retricting to home and lander-1
-- Create summary, join the result with order_id and aggregat for session, order, and cvr
+- Create summary, join the result with order_id and aggregate for session, order, and cvr
 - Find most recent pageview for gsearch nonbrand where traffic was sent to /home and estimate revenue that test earned from lander-1
 
 #### Query:
