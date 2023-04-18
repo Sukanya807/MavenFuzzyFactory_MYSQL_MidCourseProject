@@ -30,7 +30,7 @@ Extract and analyze website traffic and performance data from the Maven Fuzzy Fa
 
 #### Steps:
 
-- Extract month from date, calculate relavant sessions and orders based on source is gsearch
+- Extract month from date, calculate relavant sessions and orders where source is gsearch
 - Aggregate to find conversion rate for every month based on campaign
 
 #### Query:
